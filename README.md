@@ -2,7 +2,7 @@ Helper scripts for openNMT
   
 preprocessing:  
 Obtain dataset (I used WMT Ro-En with parallel files as ro and en)  
-Tokenize both dataset files with rokenize_moses.py (edit slightly for each file)  
+Tokenize both dataset files with tokenize_moses.py (edit slightly for each file)  
 Split into training and testing with train_val_split.py (edit slightly for each training size)  
   
 openNMT commands (1k as example):  
