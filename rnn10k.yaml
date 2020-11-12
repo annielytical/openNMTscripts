@@ -1,0 +1,20 @@
+## Where the samples will be written
+save_data: rnn/10k/samples
+## Where the vocab(s) will be written
+src_vocab: rnn/10k/vocab.src
+tgt_vocab: rnn/10k/vocab.tgt
+
+# Corpus opts:
+data:
+  corpus_1:
+      path_src: src-train10k.txt
+      path_tgt: tgt-train10k.txt
+  valid:
+      path_src: src-val10k.txt
+      path_tgt: tgt-val10k.txt
+
+# Where to save the checkpoints
+save_model: rnn/10k/model 
+save_checkpoint_steps: 500
+train_steps: 10000
+valid_steps: 500
